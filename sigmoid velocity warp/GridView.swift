@@ -32,8 +32,8 @@ class GridView: NSView {
         //******************************************************
         //*******************  Draw background Gridlines *************
         
-        let yDivisions:Int = 50 // 50 disions along y axis
-        let xDivisions:Int = 100 //75 division along X axis
+        let yDivisions:Int = 100 // 50 disions along y axis
+        let xDivisions:Int = 120 //75 division along X axis
         
         
         let gridPath = NSBezierPath() //grid and axis lines

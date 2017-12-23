@@ -18,7 +18,7 @@ class SineView: NSView {
         rawSinePath.move(to: NSPoint(x:self.bounds.origin.x , y: self.bounds.origin.y + (self.bounds.height / 2) ))
         
         
-        for i in 0...360 {
+        for i in 0...720 {
             
             rawSinePath.line(to: NSPoint(x: self.bounds.origin.x + CGFloat(i) , y: CGFloat(sineWave.amplitudeValues[i] * 200) + (self.bounds.height / 2)) )
         }

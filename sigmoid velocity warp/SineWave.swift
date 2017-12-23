@@ -31,9 +31,9 @@ class SineWave: NSObject {
 
     //******** arrays to store values **************
     
-    var amplitudeValues = [Float](repeating: 0.0, count: 361)
-    var rawTimeValues = [Float](repeating: 0.0, count: 361) // array for time value corresponding phase angle for one unmodified sine wave cycle
-    var warpedTimeValues = [Float](repeating: 0.0, count: 361)  //array for time value corresponding phase angle for one warped sine wave cycle
+    var amplitudeValues = [Float](repeating: 0.0, count: 721)
+    var rawTimeValues = [Float](repeating: 0.0, count: 721) // array for time value corresponding phase angle for one unmodified sine wave cycle
+    var warpedTimeValues = [Float](repeating: 0.0, count: 721)  //array for time value corresponding phase angle for one warped sine wave cycle
     
     //**** the warped waveform only changes the time distribution amplitudes remain unaltered ****
     
@@ -52,7 +52,7 @@ class SineWave: NSObject {
         self.frequency = frequency
         self.amplitude = amplitude
         
-        for i in 0...359 {
+        for i in 0...720 {
             
             let radianValue: Float = i.degreesToRadians
             amplitudeValues[i] = (sin(radianValue))

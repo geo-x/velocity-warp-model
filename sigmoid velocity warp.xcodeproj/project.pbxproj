@@ -16,6 +16,7 @@
 		5E6697721FEB9B020044692B /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6697711FEB9B020044692B /* GridView.swift */; };
 		5E6697741FEC897E0044692B /* SineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6697731FEC897E0044692B /* SineView.swift */; };
 		5E6697761FEC8D020044692B /* SineWave.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6697751FEC8D020044692B /* SineWave.swift */; };
+		5EABFC701FEEFB3400290AC4 /* WarpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EABFC6F1FEEFB3400290AC4 /* WarpView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		5E6697711FEB9B020044692B /* GridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
 		5E6697731FEC897E0044692B /* SineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SineView.swift; sourceTree = "<group>"; };
 		5E6697751FEC8D020044692B /* SineWave.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SineWave.swift; sourceTree = "<group>"; };
+		5EABFC6F1FEEFB3400290AC4 /* WarpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WarpView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				5E6697481FEB8A4C0044692B /* ViewController.swift */,
 				5E6697711FEB9B020044692B /* GridView.swift */,
 				5E6697731FEC897E0044692B /* SineView.swift */,
+				5EABFC6F1FEEFB3400290AC4 /* WarpView.swift */,
 				5E6697751FEC8D020044692B /* SineWave.swift */,
 				5E66974A1FEB8A4C0044692B /* Assets.xcassets */,
 				5E66974C1FEB8A4C0044692B /* Main.storyboard */,
@@ -264,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EABFC701FEEFB3400290AC4 /* WarpView.swift in Sources */,
 				5E6697491FEB8A4C0044692B /* ViewController.swift in Sources */,
 				5E6697721FEB9B020044692B /* GridView.swift in Sources */,
 				5E6697471FEB8A4C0044692B /* AppDelegate.swift in Sources */,
@@ -510,6 +514,7 @@
 				5E66976A1FEB8A4C0044692B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5E66976B1FEB8A4C0044692B /* Build configuration list for PBXNativeTarget "sigmoid velocity warpTests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +523,7 @@
 				5E66976D1FEB8A4C0044692B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5E66976E1FEB8A4C0044692B /* Build configuration list for PBXNativeTarget "sigmoid velocity warpUITests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +532,7 @@
 				5E6697701FEB8A4C0044692B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

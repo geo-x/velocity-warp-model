@@ -687,11 +687,15 @@
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="l89-JQ-ujd" customClass="SineView" customModule="sigmoid_velocity_warp" customModuleProvider="target">
-                                <rect key="frame" x="100" y="300" width="800" height="400"/>
+                                <rect key="frame" x="140" y="300" width="720" height="400"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                             </customView>
                             <customView identifier="gridView" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MZu-aa-fX3" customClass="GridView" customModule="sigmoid_velocity_warp" customModuleProvider="target">
-                                <rect key="frame" x="100" y="300" width="800" height="400"/>
+                                <rect key="frame" x="140" y="300" width="720" height="400"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            </customView>
+                            <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VOA-1j-aWp" customClass="WarpView" customModule="sigmoid_velocity_warp" customModuleProvider="target">
+                                <rect key="frame" x="140" y="300" width="720" height="400"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                             </customView>
                         </subviews>
