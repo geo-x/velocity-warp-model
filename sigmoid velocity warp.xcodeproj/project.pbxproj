@@ -13,6 +13,9 @@
 		5E66974E1FEB8A4C0044692B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E66974C1FEB8A4C0044692B /* Main.storyboard */; };
 		5E6697591FEB8A4C0044692B /* sigmoid_velocity_warpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6697581FEB8A4C0044692B /* sigmoid_velocity_warpTests.swift */; };
 		5E6697641FEB8A4C0044692B /* sigmoid_velocity_warpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6697631FEB8A4C0044692B /* sigmoid_velocity_warpUITests.swift */; };
+		5E6697721FEB9B020044692B /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6697711FEB9B020044692B /* GridView.swift */; };
+		5E6697741FEC897E0044692B /* SineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6697731FEC897E0044692B /* SineView.swift */; };
+		5E6697761FEC8D020044692B /* SineWave.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6697751FEC8D020044692B /* SineWave.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		5E66975F1FEB8A4C0044692B /* sigmoid velocity warpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sigmoid velocity warpUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E6697631FEB8A4C0044692B /* sigmoid_velocity_warpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sigmoid_velocity_warpUITests.swift; sourceTree = "<group>"; };
 		5E6697651FEB8A4C0044692B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E6697711FEB9B020044692B /* GridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		5E6697731FEC897E0044692B /* SineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SineView.swift; sourceTree = "<group>"; };
+		5E6697751FEC8D020044692B /* SineWave.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SineWave.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,9 @@
 			children = (
 				5E6697461FEB8A4C0044692B /* AppDelegate.swift */,
 				5E6697481FEB8A4C0044692B /* ViewController.swift */,
+				5E6697711FEB9B020044692B /* GridView.swift */,
+				5E6697731FEC897E0044692B /* SineView.swift */,
+				5E6697751FEC8D020044692B /* SineWave.swift */,
 				5E66974A1FEB8A4C0044692B /* Assets.xcassets */,
 				5E66974C1FEB8A4C0044692B /* Main.storyboard */,
 				5E66974F1FEB8A4C0044692B /* Info.plist */,
@@ -256,7 +265,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E6697491FEB8A4C0044692B /* ViewController.swift in Sources */,
+				5E6697721FEB9B020044692B /* GridView.swift in Sources */,
 				5E6697471FEB8A4C0044692B /* AppDelegate.swift in Sources */,
+				5E6697761FEC8D020044692B /* SineWave.swift in Sources */,
+				5E6697741FEC897E0044692B /* SineView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

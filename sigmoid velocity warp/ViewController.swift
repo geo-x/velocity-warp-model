@@ -8,10 +8,25 @@
 
 import Cocoa
 
+
+
+
+var sineWave: SineWave = SineWave(frequency: 250, amplitude: 1)
+
+
 class ViewController: NSViewController {
+    
+    
+    @IBOutlet weak var sineView: SineView!
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
+        
+        
 
         // Do any additional setup after loading the view.
     }
@@ -21,7 +36,8 @@ class ViewController: NSViewController {
         // Update the view, if already loaded.
         }
     }
-
+ 
+    
 
 }
 
