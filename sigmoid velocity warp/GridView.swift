@@ -114,6 +114,12 @@ class GridView: NSView {
         axisPath.lineWidth = 0.5
         axisPath.stroke()
       
+       
+        
+        
+        
+        
+        
            } // end of draw method
     
 }

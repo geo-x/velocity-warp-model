@@ -62,7 +62,7 @@ class SineWave: NSObject {
             
         } // end for
         
-        adjustedAmplitudeValues = amplitudeValues
+       adjustedAmplitudeValues = amplitudeValues.map { $0 * amplitude}
         
         for i in 0...720 {
             

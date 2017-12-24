@@ -11,9 +11,9 @@ import Cocoa
 
 
 
-var sineWave: SineWave = SineWave(frequency: 250, amplitude: 1)
+var sineWave: SineWave = SineWave(frequency: 250, amplitude: 0.5)
 
-var warpFactor: Float = 0.0
+var warpFactor: Float = 0.33
 class ViewController: NSViewController {
     
     
