@@ -782,7 +782,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <subviews>
                                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" allowsCharacterPickerTouchBarItem="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JUJ-z3-bKe">
-                                        <rect key="frame" x="28" y="54" width="106" height="17"/>
+                                        <rect key="frame" x="28" y="53" width="106" height="17"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="reference waveform" id="qku-UQ-bbT">
                                             <font key="font" metaFont="system" size="11"/>
