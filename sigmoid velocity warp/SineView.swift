@@ -20,7 +20,7 @@ class SineView: NSView {
         
         for i in 0...720 {
             
-            rawSinePath.line(to: NSPoint(x: self.bounds.origin.x + CGFloat(i) , y: CGFloat(sineWave.amplitudeValues[i] * 200) + (self.bounds.height / 2)) )
+            rawSinePath.line(to: NSPoint(x: self.bounds.origin.x + CGFloat(i) , y: CGFloat(sineWave.adjustedAmplitudeValues[i] * 200) + (self.bounds.height / 2)) )
         }
         
         rawSineColor.setStroke()

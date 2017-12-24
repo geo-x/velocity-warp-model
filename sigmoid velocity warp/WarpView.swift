@@ -24,9 +24,9 @@ class WarpView: NSView {
         for i in 0...720 {
          
             var timeShift = sineWave.amplitudeValues[i] * warpFactor
-            Swift.print("time shift for phase \(i) = \(timeShift)")
+           // Swift.print("time shift for phase \(i) = \(timeShift)")
             
-            warpSinePath.line(to: NSPoint(x: CGFloat((sineWave.rawTimeValues[i] + timeShift)/8 * 720), y: CGFloat(CGFloat(sineWave.amplitudeValues[i] * 200) + (self.bounds.height/2))))
+            warpSinePath.line(to: NSPoint(x: CGFloat((sineWave.rawTimeValues[i] + timeShift)/8 * 720), y: CGFloat(CGFloat(sineWave.adjustedAmplitudeValues[i] * 200) + (self.bounds.height/2))))
             
         }
 

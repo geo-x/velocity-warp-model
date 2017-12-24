@@ -32,6 +32,7 @@ class SineWave: NSObject {
     //******** arrays to store values **************
     
     var amplitudeValues = [Float](repeating: 0.0, count: 721)
+    var adjustedAmplitudeValues = [Float](repeating: 0.0, count: 721)
     var rawTimeValues = [Float](repeating: 0.0, count: 721) // array for time ( in milliseconds) value corresponding phase angle for one unmodified sine wave cycle
     var warpedTimeValues = [Float](repeating: 0.0, count: 721)  //array for time value corresponding phase angle for one warped sine wave cycle
     
@@ -58,7 +59,10 @@ class SineWave: NSObject {
             amplitudeValues[i] = (sin(radianValue))
             
             
+            
         } // end for
+        
+        adjustedAmplitudeValues = amplitudeValues
         
         for i in 0...720 {
             
@@ -67,6 +71,7 @@ class SineWave: NSObject {
             rawTimeValues[i] = timeValue
            
         } // end for
+        
         
       
         

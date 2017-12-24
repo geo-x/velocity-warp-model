@@ -26,6 +26,17 @@ class ViewController: NSViewController {
         warpView.setNeedsDisplay(warpView.bounds)
     }
     
+    @IBAction func amplitudeSlider(_ sender: NSSlider) {
+        
+        var currentGain = Float(sender.floatValue / 100)
+        Swift.print("currentGain = \(currentGain)")
+        
+        //sineWave.amplitude = sender.floatValue / 100
+        sineWave.adjustedAmplitudeValues = sineWave.amplitudeValues.map { $0 * currentGain }
+        
+        sineView.setNeedsDisplay(sineView.bounds)
+        warpView.setNeedsDisplay(warpView.bounds)
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
