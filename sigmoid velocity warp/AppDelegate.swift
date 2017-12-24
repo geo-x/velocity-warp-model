@@ -8,8 +8,8 @@
 
 import Cocoa
 
-//************************************************
-//*******************  Global Colors *************
+//*************************************************
+//*******************  Global Colors **************
 
 var graphBackgroundColor: CGColor = CGColor(red: 0.2, green: 0.5, blue: 0.8, alpha: 0.08) //background for graphs
 
