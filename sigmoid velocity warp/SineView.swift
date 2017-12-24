@@ -13,7 +13,7 @@ class SineView: NSView {
     override func draw(_ dirtyRect: NSRect) {
         super.draw(dirtyRect)
 
-        let rawSinePath = NSBezierPath() //grid and axis lines
+        let rawSinePath = NSBezierPath() // raw sine wave before any processing
         
         rawSinePath.move(to: NSPoint(x:self.bounds.origin.x , y: self.bounds.origin.y + (self.bounds.height / 2) ))
         

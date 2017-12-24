@@ -13,12 +13,18 @@ import Cocoa
 
 var sineWave: SineWave = SineWave(frequency: 250, amplitude: 1)
 
-
+var warpFactor: Float = 0.0
 class ViewController: NSViewController {
     
     
     @IBOutlet weak var sineView: SineView!
+    @IBOutlet weak var warpView: WarpView!
     
+    @IBAction func warpSlider(_ sender: NSSlider) {
+        
+        warpFactor =  sender.floatValue * 0.0066
+        warpView.setNeedsDisplay(warpView.bounds)
+    }
     
 
     override func viewDidLoad() {

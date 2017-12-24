@@ -19,7 +19,7 @@ let axisColor = NSColor(calibratedHue: 0.8, saturation: 0.8, brightness: 0.1, al
 let zeroAxisColor = NSColor(calibratedHue: 0.0, saturation: 1, brightness: 1, alpha: 1)
 
 let rawSineColor = NSColor(calibratedHue: 0.33, saturation: 1, brightness: 1, alpha: 1)
-
+let warpSineColor = NSColor(calibratedHue: 0.05, saturation: 1, brightness: 1, alpha: 1)
 
 
 @NSApplicationMain
